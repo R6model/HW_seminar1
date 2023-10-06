@@ -3,18 +3,18 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-Console.WriteLine ("Введите первое число");
+Console.WriteLine("Введите первое число");
 int numberOne = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Введите второе число");
+Console.WriteLine("Введите второе число");
 int numberTwo = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Введите третье число");
+Console.WriteLine("Введите третье число");
 int numberThree = Convert.ToInt32(Console.ReadLine());
 int max = numberOne;
-if (numberTwo>max&&numberTwo>numberThree)
+if (numberTwo > max && numberTwo > numberThree)
 {
-    Console.Write ($"a={numberOne} b={numberTwo} c={numberThree} -> max={numberTwo}");
+    Console.Write($"a={numberOne} b={numberTwo} c={numberThree} -> max={numberTwo}");
 }
 else
 {
-    Console.Write ($"a={numberOne} b={numberTwo} c={numberThree} -> max={numberThree}");
+    Console.Write($"a={numberOne} b={numberTwo} c={numberThree} -> max={numberThree}");
 }
