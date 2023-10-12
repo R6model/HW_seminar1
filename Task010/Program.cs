@@ -2,15 +2,15 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-Console.WriteLine ("Введите терхзначное число");
+Console.WriteLine("Введите терхзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number<999&&number>100)
-    {
-        int SecondNum = number/10%10;
-        Console.WriteLine ($"Вторая цифра введенного числа -> {SecondNum}"); 
-    } 
-else  
-    {
-        Console.WriteLine ("Введено некорректное число, повторите ввод"); 
-        return;
-    }
+if (number < 999 && number > 100)
+{
+    int SecondNum = number / 10 % 10;
+    Console.WriteLine($"Вторая цифра введенного числа -> {SecondNum}");
+}
+else
+{
+    Console.WriteLine("Введено некорректное число, повторите ввод");
+    return;
+}
