@@ -25,16 +25,15 @@ void PrintArray(double[] arr)
 
 double DifferenceNumbers(double[] arr)
 {
-    double min = 0;
-    double max = 0;
-    double dif;
+     double dif = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        min = arr[i];
+        double min = arr[i];
+        double max = 0; 
         if (arr[i] <= min) min = arr[i];
-        if (arr[i]>max)max=arr[i];                   
+        if (arr[i]>max)max=arr[i]; 
+        dif = max - min;                  
     }
-    dif = max - min;
     return dif;
     
 }
